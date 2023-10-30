@@ -3,8 +3,8 @@ import { Section } from '../layout/Section';
 
 const VerticalFeatures = () => (
   <Section
-    title="Your title here"
-    description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus malesuada nisi tellus, non imperdiet nisi tempor at."
+    title="Easily recall all the restaurants you've visited"
+    description="Bitetrail allows you to keep track of basic information about the restaurant, such as name, address, category, and more..."
   >
     <VerticalFeatureRow
       title="Your title here"
