@@ -26,8 +26,9 @@ const Hero = () => (
       <HeroOneButton
         title={
           <>
-            {'Track your restaurant visits with\n'}
+            {'Welcome to '}
             <span className="text-primary-500">Bitetrail</span>
+            {'\nYour Personal Dining Diary!\n'}
           </>
         }
         description=""
