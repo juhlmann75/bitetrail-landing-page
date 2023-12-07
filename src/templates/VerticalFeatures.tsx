@@ -9,26 +9,26 @@ const VerticalFeatures = () => (
     <VerticalFeatureRow
       title="Log Every Bite"
       description="Never forget that hidden gem or your favorite dish. After every meal, simply add the restaurant to your Bitetrail diary, rate your experience, jot down the amount spent, and set the date."
-      image="/assets/images/feature.svg"
+      image="/assets/images/bitetrail-logging.png"
       imageAlt="First feature alt text"
     />
     <VerticalFeatureRow
       title="Wishlist Your Tasteful Adventures"
       description="Came across a restaurant you want to try? Add it to your Bitetrail wishlist. Say goodbye to forgotten recommendations and hello to your next dining experience!"
-      image="/assets/images/feature2.svg"
+      image="/assets/images/bitetrail-to-try-list.png"
       imageAlt="Second feature alt text"
       reverse
     />
     <VerticalFeatureRow
       title="Visualize Your Culinary Trail on a Map"
       description="With our interactive map feature, see all the restaurants you’ve visited or wish to try. Perfect for planning trips or revisiting old favorites."
-      image="/assets/images/feature3.svg"
+      image="/assets/images/bitetrail-map.png"
       imageAlt="Third feature alt text"
     />
     <VerticalFeatureRow
       title="Dining Dashboard"
       description="Dive deep into your dining data! Check out stats on your average spending, top-rated spots, most visited categories, and more. A dashboard that speaks to the foodie in you."
-      image="/assets/images/feature3.svg"
+      image="/assets/images/bitetrail-dashboard.png"
       imageAlt="Third feature alt text"
       reverse
     />
