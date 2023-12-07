@@ -1,9 +1,19 @@
+import type { ReactNode } from 'react';
 
 import { FooterCopyright } from './FooterCopyright';
 
-// eslint-disable-next-line unused-imports/no-unused-vars
-const CenteredFooter = () => (
+type ICenteredFooterProps = {
+  children: ReactNode;
+};
+
+const CenteredFooter = (props: ICenteredFooterProps) => (
   <div className="text-center">
+    <nav>
+      <ul className="navbar mt-5 flex flex-row justify-center text-xl font-medium text-gray-800">
+        {props.children}
+      </ul>
+    </nav>
+
     <div className="mt-8 text-sm">
       <FooterCopyright />
     </div>
