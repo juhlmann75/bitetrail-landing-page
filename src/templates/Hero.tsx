@@ -24,7 +24,7 @@ const Hero = () => (
         }
         description=""
         button={
-          <Link href="https://creativedesignsguru.com/category/nextjs/">
+          <Link href="/">
             <Button xl>Download</Button>
           </Link>
         }

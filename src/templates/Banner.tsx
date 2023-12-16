@@ -10,7 +10,7 @@ const Banner = () => (
       title="Embark on a flavorful journey and make every dining experience memorable. Whether you're exploring new spots in your city or traveling the world, Bitetrail is your trusted companion on every food adventure."
       subtitle="Join the Bitetrail Community!"
       button={
-        <Link href="https://creativedesignsguru.com/category/nextjs/">
+        <Link href="/">
           <Button>Get Started</Button>
         </Link>
       }
