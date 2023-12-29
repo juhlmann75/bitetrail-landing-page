@@ -1,7 +1,6 @@
 import Link from 'next/link';
 
 import { Background } from '../background/Background';
-import { Button } from '../button/Button';
 import { HeroOneButton } from '../hero/HeroOneButton';
 import { Section } from '../layout/Section';
 import { NavbarTwoColumns } from '../navigation/NavbarTwoColumns';
@@ -24,8 +23,12 @@ const Hero = () => (
         }
         description=""
         button={
-          <Link href="/">
-            <Button xl>Download</Button>
+          <Link href="https://apps.apple.com/us/app/bitetrail/id6460586415?itsct=apps_box_badge&amp;itscg=30200">
+            <img
+              className="m-auto w-[250px] h-[83px]"
+              src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-us?size=250x83&amp;releaseDate=1703030400"
+              alt="Download on the App Store"
+            />
           </Link>
         }
       />
